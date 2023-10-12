@@ -7,6 +7,7 @@ const ShowData = () => {
 
   useEffect(() => {
     axios.get("https://api.tvmaze.com/shows").then((response) => {
+      console.log(response.data)
       setShows(response.data);
     });
   }, []);

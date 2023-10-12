@@ -33,7 +33,7 @@ function BookTickets() {
       <div className="page">
         <h1 style={{ color: "#fff", marginTop: "0" }}>Booking Summary</h1>
         <form onSubmit={handleSubmit}>
-          <div>
+          <div className="widthdiv">
             <label htmlFor="movieName">Movie Name:</label>
             <br />
             <input
@@ -44,7 +44,7 @@ function BookTickets() {
               required
             />
           </div>
-          <div>
+          <div className="widthdiv">
             <label htmlFor="date">Date:</label>
             <br />
             <input
@@ -94,7 +94,7 @@ function BookTickets() {
               </label>
             </div>
           </div>
-          <div>
+          <div className="widthdiv">
             <br />
             <br />
             <label htmlFor="numTickets">Number of Tickets:</label>

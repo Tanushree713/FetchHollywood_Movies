@@ -96,26 +96,28 @@ form {
   margin: 0 auto;
   color: #fff;
   border: 2px solid #dad8d8;
-  padding: 1em;
+  padding: 10px;
   border-radius: 16px;
   background-color: #0a0a0a;
   box-shadow: 0.3rem 0.4rem 0.4rem 0.4rem #434343;
 }
 
 label {
-  margin-bottom: 1em;
-  font-size: 19px;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
-
+.widthdiv{
+  width: 90%;
+}
 input[type="text"],
 input[type="date"],
 input[type="number"] {
   padding: 9px;
-  margin-bottom: 1em;
+  margin-bottom: 25px;
   font-size: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 26vw;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -206,12 +208,6 @@ h3 {
   }
   .about {
     margin: auto 1em;
-  }
-
-  input[type="text"],
-  input[type="date"],
-  input[type="number"] {
-    width: 55vw;
   }
   .page {
     width: 100%;
